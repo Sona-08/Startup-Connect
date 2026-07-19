@@ -1,0 +1,11 @@
+.analysis-result{
+    margin-top:20px;
+    padding:20px;
+    border-radius:10px;
+    background:#f4f4f4;
+    border:1px solid #ddd;
+}
+
+.analysis-result h3{
+    margin:10px 0;
+}

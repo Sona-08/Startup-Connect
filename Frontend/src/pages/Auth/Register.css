@@ -1,0 +1,41 @@
+.register-container{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#F1F5F9;
+}
+
+.register-box{
+    width:520px;
+    background:white;
+    padding:40px;
+    border-radius:15px;
+    box-shadow:0 10px 30px rgba(0,0,0,.15);
+}
+
+.register-box h1{
+    text-align:center;
+    color:#1E3A8A;
+    margin-bottom:30px;
+}
+
+.register-box input,
+.register-box select{
+    width:100%;
+    padding:14px;
+    margin:12px 0;
+    border:1px solid #ddd;
+    border-radius:8px;
+}
+
+.register-box button{
+    width:100%;
+    padding:15px;
+    background:#1E3A8A;
+    color:white;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    margin-top:20px;
+}

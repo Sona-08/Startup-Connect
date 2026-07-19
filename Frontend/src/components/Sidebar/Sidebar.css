@@ -1,0 +1,30 @@
+.sidebar{
+    width:220px;
+    min-height:100vh;
+    background:#1E3A8A;
+    color:white;
+    padding:20px;
+}
+
+.sidebar h2{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.sidebar ul{
+    list-style:none;
+}
+
+.sidebar li{
+    margin:20px 0;
+}
+
+.sidebar a{
+    color:white;
+    text-decoration:none;
+    font-size:18px;
+}
+
+.sidebar a:hover{
+    color:#FACC15;
+}

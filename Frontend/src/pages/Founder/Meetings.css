@@ -1,0 +1,94 @@
+.meeting-page{
+    display:flex;
+    min-height:100vh;
+    background:#F8FAFC;
+}
+
+.meeting-container{
+    flex:1;
+    padding:40px;
+}
+
+.meeting-container h1{
+    color:#1E3A8A;
+    margin-bottom:25px;
+}
+
+.meeting-container form{
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:12px;
+
+    box-shadow:0 3px 10px rgba(0,0,0,.1);
+
+    margin-bottom:35px;
+
+}
+
+.meeting-container input,
+.meeting-container select{
+
+    width:100%;
+
+    padding:12px;
+
+    margin-bottom:18px;
+
+    border:1px solid #ccc;
+
+    border-radius:8px;
+
+}
+
+.meeting-container button{
+
+    width:100%;
+
+    padding:14px;
+
+    background:#1E3A8A;
+
+    color:white;
+
+    border:none;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    font-size:17px;
+
+}
+
+table{
+
+    width:100%;
+
+    background:white;
+
+    border-collapse:collapse;
+
+    box-shadow:0 3px 10px rgba(0,0,0,.1);
+
+}
+
+th{
+
+    background:#1E3A8A;
+
+    color:white;
+
+    padding:14px;
+
+}
+
+td{
+
+    padding:14px;
+
+    border-bottom:1px solid #ddd;
+
+}

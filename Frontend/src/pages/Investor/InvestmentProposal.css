@@ -1,0 +1,21 @@
+.profile-container form{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.profile-container input,
+.profile-container textarea{
+    padding:10px;
+    border:1px solid #ccc;
+    border-radius:8px;
+}
+
+.profile-container button{
+    padding:12px;
+    background:#2563eb;
+    color:white;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+}

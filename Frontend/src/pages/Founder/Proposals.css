@@ -1,0 +1,61 @@
+.proposal-page{
+    display:flex;
+    min-height:100vh;
+    background:#F8FAFC;
+}
+
+.proposal-container{
+    flex:1;
+    padding:40px;
+}
+
+.proposal-container h1{
+    color:#1E3A8A;
+    margin-bottom:25px;
+}
+
+.filter-section{
+    margin-bottom:20px;
+}
+
+.filter-section select{
+    margin-left:10px;
+    padding:8px;
+}
+
+table{
+    width:100%;
+    background:white;
+    border-collapse:collapse;
+    box-shadow:0 3px 10px rgba(0,0,0,.1);
+}
+
+th{
+    background:#1E3A8A;
+    color:white;
+    padding:15px;
+}
+
+td{
+    padding:15px;
+    border-bottom:1px solid #ddd;
+}
+
+.status{
+    color:white;
+    padding:6px 15px;
+    border-radius:20px;
+    font-size:14px;
+}
+
+.pending{
+    background:orange;
+}
+
+.approved{
+    background:green;
+}
+
+.rejected{
+    background:red;
+}

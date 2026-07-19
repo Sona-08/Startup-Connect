@@ -1,0 +1,46 @@
+.investor-page{
+    display:flex;
+    min-height:100vh;
+    background:#F8FAFC;
+}
+
+.investor-container{
+    flex:1;
+    padding:40px;
+}
+
+.investor-container h1{
+    color:#1E3A8A;
+    margin-bottom:30px;
+}
+
+.card-grid{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+    margin-bottom:40px;
+}
+
+.dashboard-section{
+    background:white;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 3px 10px rgba(0,0,0,.1);
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:20px;
+}
+
+th{
+    background:#1E3A8A;
+    color:white;
+    padding:15px;
+}
+
+td{
+    padding:15px;
+    border-bottom:1px solid #ddd;
+}

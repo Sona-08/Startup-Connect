@@ -1,0 +1,16 @@
+.analysis-result {
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: #f8f9fa;
+}
+
+.analysis-result p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.analysis-result h2 {
+    margin-bottom: 15px;
+}

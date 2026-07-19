@@ -1,0 +1,97 @@
+.notification-page{
+    display:flex;
+    min-height:100vh;
+    background:#F8FAFC;
+}
+
+.notification-container{
+    flex:1;
+    padding:40px;
+}
+
+.notification-container h1{
+    color:#1E3A8A;
+    margin-bottom:25px;
+}
+
+.read-all-btn{
+    background:#1E3A8A;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    border-radius:8px;
+    cursor:pointer;
+    margin-bottom:25px;
+}
+
+.notification-card{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    background:white;
+
+    margin-bottom:20px;
+
+    padding:20px;
+
+    border-radius:10px;
+
+    box-shadow:0 3px 10px rgba(0,0,0,.1);
+
+}
+
+.success{
+
+    border-left:8px solid green;
+
+}
+
+.warning{
+
+    border-left:8px solid orange;
+
+}
+
+.error{
+
+    border-left:8px solid red;
+
+}
+
+.action-btn{
+
+    background:#2563EB;
+
+    color:white;
+
+    border:none;
+
+    padding:8px 15px;
+
+    margin-right:10px;
+
+    border-radius:6px;
+
+    cursor:pointer;
+
+}
+
+.delete-btn{
+
+    background:#DC2626;
+
+    color:white;
+
+    border:none;
+
+    padding:8px 15px;
+
+    border-radius:6px;
+
+    cursor:pointer;
+
+}

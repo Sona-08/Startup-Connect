@@ -1,0 +1,37 @@
+.approval-page{
+    display:flex;
+    min-height:100vh;
+    background:#f4f6f9;
+}
+
+.approval-container{
+    flex:1;
+    padding:40px;
+}
+
+.approval-card{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    margin-bottom:20px;
+    box-shadow:0 4px 10px rgba(0,0,0,.1);
+}
+
+.approve-btn{
+    background:green;
+    color:white;
+    border:none;
+    padding:10px 18px;
+    border-radius:6px;
+    margin-right:10px;
+    cursor:pointer;
+}
+
+.reject-btn{
+    background:red;
+    color:white;
+    border:none;
+    padding:10px 18px;
+    border-radius:6px;
+    cursor:pointer;
+}
