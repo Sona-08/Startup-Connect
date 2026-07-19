@@ -1,0 +1,41 @@
+version: "3.8"
+
+services:
+
+  postgres:
+    image: postgres:16
+    container_name: startupconnect-db
+    restart: always
+    environment:
+      POSTGRES_DB: startupconnect
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: system
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  backend:
+    build:
+      context: ./backend/backend
+    container_name: startupconnect-backend
+    depends_on:
+      - postgres
+    ports:
+      - "8080:8080"
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/startupconnect
+      SPRING_DATASOURCE_USERNAME: postgres
+      SPRING_DATASOURCE_PASSWORD: system
+
+  frontend:
+    build:
+      context: ./frontend
+    container_name: startupconnect-frontend
+    depends_on:
+      - backend
+    ports:
+      - "3000:3000"
+
+volumes:
+  postgres_data:
